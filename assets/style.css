@@ -284,6 +284,9 @@ input[type="submit"] {
         /* background-color: red; */
         width: 80vw;
     }
+    .project_banner_desktop {
+        display: none;
+    }
 
     .fa-bars {
         display: flex;
