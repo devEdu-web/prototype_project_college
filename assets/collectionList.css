@@ -1,0 +1,23 @@
+.poster_wrap {
+    width: max-content;
+}
+
+.poster_wrap img {
+    height: 250px;
+    width: 175px;
+}
+
+header, .list_collection {
+    margin: 0 2rem;
+}
+
+.list_collection {
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+

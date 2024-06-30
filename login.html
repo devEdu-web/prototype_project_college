@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/global.css">
+  <link rel="stylesheet" href="./assets/login.css">
+  <title>Login</title>
+</head>
+<body class="d-flex justify-content-center align-items-center bg-main-color">
+  
+
+  <main class="w50 bg-third-grey d-flex flex-column align-items-center justify-content-center text-light position-absolute">
+
+
+    <form action="./index.html" method="post" class="d-flex flex-column align-items-center gap-4 w-75">
+      <h1 class="login-title fixed-top position-absolute mx-auto p-3">Login</h1>
+
+      <input class="mb-2 mt-5 w-100 bg-third-grey" type="email" name="email" id="email-input" placeholder="Email">
+      <input class="mb-3 w-100 bg-third-grey" type="password" name="password" id="password-input" placeholder="Password">
+      <input class="mb-2 w-100 bg-contrast-purple fw-bolder text-light py-1" type="submit" value="Login">
+
+      <a href="" class="text-light text-decoration-none fw-light">Forgot password?</a>
+
+      
+
+      <span id="line">or</span>
+
+
+      <div class="oauth-options d-flex w-100 gap-3">
+        <a href="" class="w-50 btn btn-danger">Google</a>
+        <a href="" class="w-50 btn btn-primary">Google</a>
+      </div>
+
+      <div class="fixed-bottom position-absolute text-center pb-1 d-flex flex-column gap-3">
+        <small class="text-danger" id="errorMessageTag"></small>
+        <span id="register-link" class="">Doesn't have an account? <a href="register.html" class="text-contrast-red text-decoration-none">Register</a></span>
+      </div>
+
+    </form>
+
+  </main>
+
+</body>
+</html>

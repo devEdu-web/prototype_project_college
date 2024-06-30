@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+}
+
+main {
+  width: 28vw;
+  height: 80vh;
+  border-radius: 15px;
+}
+
+.login-title {
+  text-align: center;
+  width: 60%;
+  border-bottom: 3px solid white;
+}
+
+input[type='email'], input[type='password'] {
+  border: none;
+  padding: 3px 5px;
+  color: white;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+
+input[type='submit'] {
+  border: none;
+  outline: none;
+}
+
+#line:before, #line:after {
+  content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.5em;
+}
+
+#errorMessageTag {
+  display: none;
+}
+
+@media screen and (max-width: 1430px) {
+  main {
+    width: 30vw;
+    height: 60vh;
+    background-color: red;
+  }
+  #register-link {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media screen and (max-width: 930px) {
+  main {
+    width: 60vw;
+    height: 65vh;
+    background-color: red;
+  }
+  #register-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  main {
+    width: 65vw;
+  }
+  #line:before, #line:after {
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  main {
+    width: 90vw;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  main {
+    width: 24vw;
+    height: 70vh;
+  }
+  #register-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  body {
+    min-height: 120vh;
+  }
+  main {
+    height: 120vh;
+  }
+}
