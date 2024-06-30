@@ -21,7 +21,7 @@ body {
 }
 
 .project_banner_mobile {
-    width: 400px;
+    width: 250px;
     height: 100vh;
     position: fixed;
     left: -32px;
